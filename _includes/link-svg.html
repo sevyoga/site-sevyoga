@@ -1,0 +1,10 @@
+<a class="svg-link" href="{{ include.href | default: "" }}" target="{{ include.target | default: "_blank" }}">
+    <span>
+        <object width="{{ include.width | default: "16" }}"
+         height="{{ include.height | default: "16" }}"
+         data="{{ include.data }}"
+         type="image/svg+xml">
+            <span>{{ include.alt | default: "Votre navigateur ne supporte pas les images SVG" }}</span>
+        </object>
+    </span>
+</a>
