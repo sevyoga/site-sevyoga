@@ -37,8 +37,8 @@ lang: fr # Set the site language
 title: "Sev Yoga" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Cours de yoga Vinyasa à Dijon" # Site description and default description, also used in jekyll-seo-tag
-url: "https://sevyoga.github.io" # Site url, also used in jekyll-seo-tag
-baseurl: "/site-sevyoga"
+url: "https://sevyoga.github.io/site-sevyoga" # Site url, also used in jekyll-seo-tag
+baseurl: ""
 permalink: pretty
 repo: "https://github.com/sevyoga/site-sevyoga"
 email: "sevyoga7@gmail.com"
