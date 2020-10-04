@@ -2,7 +2,7 @@
     <span>
         <object width="{{ include.width | default: "16" }}"
          height="{{ include.height | default: "16" }}"
-         data="{{ include.data }}"
+         data="{{ include.data | relative_url }}"
          type="image/svg+xml">
             <span>{{ include.alt | default: "Votre navigateur ne supporte pas les images SVG" }}</span>
         </object>
