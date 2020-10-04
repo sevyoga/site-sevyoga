@@ -24,17 +24,17 @@ $hoverColour: #247C57 !default;
 
 @font-face {
     font-family: 'lucida-handwriting';
-    src: url('/assets/font/LHANDW.TTF') format('truetype');
+    src: url({{ '/assets/font/LHANDW.TTF' | relative_url }}) format('truetype');
   }
   
   @font-face {
     font-family: 'Alegreya';
-    src: url('/assets/font/Alegreya-Regular.ttf') format('truetype');
+    src: url({{ '/assets/font/Alegreya-Regular.ttf' | relative_url }}) format('truetype');
   }
   
   @font-face {
     font-family: 'Lato';
-    src: url('/assets/font/Lato-Regular.ttf') format('truetype');
+    src: url({{ '/assets/font/Lato-Regular.ttf' | relative_url }}) format('truetype');
   }
 
 
