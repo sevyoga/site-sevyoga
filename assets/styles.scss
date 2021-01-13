@@ -408,6 +408,21 @@ div {
   } 
  }
 
+
+ div {
+   &.cours-en-ligne{
+     margin-top: 1.2rem;
+     margin-bottom: 1.2rem;
+     
+     div {
+       p {
+         text-align: justify;
+       }
+     }
+   }
+ }
+
+
  div {
    &.contact{
      div {
