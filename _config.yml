@@ -62,6 +62,8 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Accueil
   url: /
+- title: Cours en ligne
+  url: /cours-en-ligne/
 - title: Présentation
   url: /presentation/
 - title: Horaires et Tarifs
