@@ -21,7 +21,7 @@ plugins:
 
 
 # Gem settings
-remote_theme: daviddarnes/alembic
+remote_theme: daviddarnes/alembic@main
 
 
 # Jekyll settings
